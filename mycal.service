@@ -1,0 +1,8 @@
+[Unit]
+Description=My Calendar Schedule
+
+[Service]
+#User=bhaskar
+#Group=bhaskar
+ExecStart=/home/bhaskar/bin/cal_check
+
