@@ -1,0 +1,11 @@
+[Unit]
+Description=My Calendar Schedule
+Documentation=man:calcurse
+
+[Timer]
+OnCalendar=*:0/2 
+AccuracySec=5m
+Persistent=true
+
+[Install]
+WantedBy=timers.target
