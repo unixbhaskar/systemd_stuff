@@ -1,0 +1,8 @@
+[Unit]
+Description=Syncing Mail with Remote
+
+[Service]
+#User=bhaskar
+#Group=bhaskar
+ExecStart=/home/bhaskar/bin/mail_sync
+
